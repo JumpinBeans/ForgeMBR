@@ -1,0 +1,22 @@
+# ForgeMBR — Assembly Bootloader Git Ignore
+
+# Binary outputs
+*.bin
+*.img
+*.iso
+*.o
+*.map
+*.lst
+*.log
+
+# Swap files, OS metadata
+*.swp
+.DS_Store
+
+# VSCode or editor settings (optional)
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Optional: project metadata
+forge.project
