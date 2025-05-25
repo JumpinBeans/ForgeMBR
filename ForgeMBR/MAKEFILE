@@ -1,0 +1,16 @@
+all: ForgeMBR.img
+
+boot.bin: boot.asm
+	nasm -f bin boot.asm -o boot.bin
+
+kernel.bin: kernel.asm
+	nasm -f bin kernel.asm -o kernel.bin
+
+ForgeMBR.img: boot.bin kernel.bin
+	cat boot.bin kernel.bin > ForgeMBR.img
+
+run:
+	qemu-system-x86_64 -fda ForgeMBR.img
+
+clean:
+	rm -f *.bin *.img
