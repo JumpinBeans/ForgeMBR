@@ -1,7 +1,1 @@
-{
-  "genesis_hash": "76420737040f0648073ac6476af38747",
-  "block_0_hash": "76420737040f0648073ac6476af38747",
-  "boot_msg": "SoulOS Kernel Loaded. Awaiting soul block...",
-  "chain_length": 1,
-  "last_verified": "2025-05-25T12:00:00Z"
-}
+502581e763813215a1c265b4bdd3dd6f60e1b7154b686058dd7d9c4c1f62909e  scrollchain.json
